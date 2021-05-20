@@ -1,0 +1,176 @@
+@import url(../css/nullstyle.css);
+body {
+  background: #747373;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.wrapper {
+  max-width: 100%; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 5px;
+  max-width: 1920px; }
+
+.about__flex {
+  display: flex;
+  min-height: 100%; }
+
+.block__about {
+  width: 30%;
+  padding: 10px 50px;
+  background: #3f7da7;
+  display: inline-block; }
+  .block__about .foto__phone {
+    display: none;
+    text-align: center; }
+
+.block__about1 {
+  width: 70%;
+  padding: 10px 50px;
+  background: #e0e0e0;
+  display: inline-block; }
+  .block__about1 h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .block__about1 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .block__about1 h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .block__about1 h4 {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px; }
+  .block__about1 .line {
+    width: 100%;
+    height: 3px;
+    background: #000;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  .block__about1 .job {
+    display: flex;
+    justify-content: space-between; }
+    .block__about1 .job .data__job p {
+      font-size: 18px;
+      font-weight: 600; }
+    .block__about1 .job .about__job p {
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: 600; }
+    .block__about1 .job .about__job ul li {
+      font-size: 16px;
+      font-weight: 400;
+      list-style: circle;
+      margin-bottom: 5px; }
+  .block__about1 .education .education__flex {
+    display: flex;
+    justify-content: space-between; }
+    .block__about1 .education .education__flex .education__data {
+      font-size: 18px;
+      font-weight: 600; }
+    .block__about1 .education .education__flex .about__education {
+      align-self: center;
+      font-size: 18px;
+      font-weight: 600; }
+      .block__about1 .education .education__flex .about__education .faculty, .block__about1 .education .education__flex .about__education .specialty {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 400; }
+  .block__about1 .courses .courses__flex {
+    display: flex;
+    justify-content: space-between; }
+    .block__about1 .courses .courses__flex .data__courses {
+      font-size: 18px;
+      font-weight: 600; }
+    .block__about1 .courses .courses__flex .link__courses p {
+      font-size: 16px;
+      font-weight: 600;
+      display: inline-block; }
+  .block__about1 .about__me {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px; }
+
+.foto {
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px; }
+
+.title__about {
+  background: #2e658a;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px; }
+
+.contact__item p, .language__item p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 6px; }
+
+.skills__item ul {
+  padding-left: 17px; }
+  .skills__item ul li {
+    margin-bottom: 5px;
+    list-style: circle;
+    font-size: 18px;
+    font-weight: 400; }
+
+.quality__item ul {
+  padding-left: 17px; }
+  .quality__item ul li {
+    list-style: circle;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400; }
+
+@media (max-width: 1244px) {
+  .container {
+    max-width: 970px; }
+
+  .block__about {
+    padding-left: 10px;
+    padding-right: 10px; } }
+@media (max-width: 845px) {
+  .container {
+    max-width: 970px; }
+
+  .block__about {
+    padding-left: 10px;
+    padding-right: 10px; } }
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px; }
+
+  .job, .education__flex, .courses__flex {
+    flex-direction: column;
+    align-items: center; }
+
+  .data__job p {
+    margin-bottom: 10px; }
+
+  .contact__item a {
+    font-size: 14px; }
+
+  .education__data span {
+    display: block;
+    margin-bottom: 10px; }
+
+  .data__courses span {
+    display: block;
+    margin-bottom: 10px; }
+
+  .skills__item ul {
+    text-align: center; }
+    .skills__item ul li {
+      list-style: none;
+      font-size: 16px; } }
+
+/*# sourceMappingURL=style.css.map */
